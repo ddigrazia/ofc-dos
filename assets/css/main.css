@@ -1600,7 +1600,7 @@
 		color: #fff;
 	}
 
-	body, input, select, textarea {
+	body {
 		font-family: 'Bangers', cursive;
 		font-size: 13pt;
 		font-weight: 300;
@@ -1686,7 +1686,7 @@
 		@media screen and (max-width: 736px) {
 
 			h2 {
-				font-size: 2em !important;
+				font-size: 3em !important;
 			}
 
 		}
@@ -1714,7 +1714,7 @@
 		@media screen and (max-width: 480px) {
 
 			h3 {
-				font-size: 1.25em;
+				font-size: 3em;
 			}
 
 		}
@@ -1961,6 +1961,7 @@
 	.button {
 		background-color: #9b52e0;
 		color: #ffffff !important;
+		border-radius: 40px;
 	}
 
 		input[type="submit"]:hover,
@@ -3554,7 +3555,7 @@
 		}
 
 		.logo-banner {
-			max-width: 60%;
+			max-width: 50% !important;
 		}
 
 		#header {
@@ -3974,10 +3975,10 @@
 		width: 70px;
 	}
 
-	@media only screen and (max-width: 400px) {
+	@media only screen and (max-width: 640px) {
 		.mobile-hide{ display: none !important; }
 		}
-		@media only screen and (max-width: 400px) {
+		@media only screen and (max-width: 640px) {
 		.mobile{ display: inline !important; }
 		}
 		@media only screen and (min-width: 500px) {
