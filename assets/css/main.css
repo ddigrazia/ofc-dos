@@ -2148,11 +2148,11 @@
 	.the-form
 	{
 		background-color: #e0c3fc;
-		background-image: linear-gradient(180deg, #e0c3fc 24%, #8ec5fc 100%);			
+		background-image: linear-gradient(180deg, #ba95dd 24%, #6ea2d6 100%);			
 		padding: 3em 0 3em 0;
 	}
 
-	label {
+	label {	
 		display: block;
 		font-size: 0.9em;
 		font-weight: 700;
@@ -2465,6 +2465,7 @@
 
 		.logos-djs
 		{
+			max-width: ;
 			display: block;
 			margin-left: auto;
 			margin-right: auto;
@@ -2621,6 +2622,23 @@
 				form {
 					margin: 2em 7em 2em 7em;
 				}
+
+				.logos-djs
+				{
+					max-width: 60%;
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					float: inherit;
+				}		
+
+				.share {
+					width: 45px;
+					height: 45px;
+					position: relative;
+					cursor: pointer;
+					transition: all 0.2s linear;
+				}
 			}
 
 			@media screen and (max-width: 480px) {
@@ -2696,7 +2714,7 @@
 
 	header p {
 		position: relative;
-		margin: 0 17em 1.5em 17em;
+		margin: 0 10em 1.5em 10em;
 	}
 
 	header h2 + p {
@@ -2894,7 +2912,7 @@
 
 		.wrapper.style1 {
 			background-color: #21D4FD;
-			background-image: linear-gradient(0deg, #21D4FD 0%, #B721FF 100%);			
+			background-image: linear-gradient(0deg, #21D4FD 0%, #0FA8CA 100%);			
 		
 		}
 
@@ -3320,7 +3338,7 @@
 			.sec3
 			{
 				background-color: #e0c3fc;
-				background-image: linear-gradient(0deg, #e0c3fc 24%, #2af598 100%);				
+				background-image: linear-gradient(0deg, #ba95dd 24%, #2af598 100%);				
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3731,7 +3749,7 @@
 		display: -ms-flexbox;
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
-		padding: 8em 0 16em 0;
+		padding: 16em 0 16em 0;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3991,7 +4009,7 @@
 	#footer {
 		padding: 6em 0 4em 0;
 		background-color: #8EC5FC;
-		background-image: linear-gradient(180deg, #8EC5FC 0%, #E0C3FC 100%);
+		background-image: linear-gradient(180deg, #6ea2d6 0%, #8EC5FC 100%);
 	}
 
 		#footer > .inner {
@@ -4066,7 +4084,7 @@
 			background-size:cover;
 		  }
 		  .shaky{
-			animation:animate .90s infinite;
+			animation:animate .9s infinite;
 		  }
 		  @keyframes animate{
 			0%{
@@ -4079,6 +4097,7 @@
 			20%{
 			  background-position: -2px 0;
 			}
+			/*
 			30%{
 			  background-position: 6px 0;
 			}
@@ -4096,10 +4115,10 @@
 			}
 			80%{
 			  background-position: -10px -5px;
-			}
+			}*/
 			100%{
 			  background-position: 0 0;
-			  filter:hue-rotate(180deg);
+			  filter:hue-rotate(35deg);
 			}
 		  }
 		  /*
